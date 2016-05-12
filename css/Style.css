@@ -18,4 +18,6 @@ footer{
 body{
     font-size: 110%;
     font-family: Arial, SimSun, serif;
+    text-align: center;
+    margin: auto;
     }

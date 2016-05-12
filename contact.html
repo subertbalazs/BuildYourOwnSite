@@ -13,18 +13,20 @@
     </nav>
 </header>
 <div class="contact">
-   <form  action = "#" name="myForm"   onsubmit="return(validate())">
+   <form  action = "#" name="myForm"   onsubmit="validateName(), validateEmail()">
        <label> Enter your name: </label>
        <input type= "text" name="Name" /><br>
        <label> Enter your email</label>
        <input type="text" name="Email"/> <br>
+       
+       <textarea name="textarea" id="messagebox" rows="10" cols="50"></textarea><br>
        <input type="submit" value="SEND"><br>
-       <textarea name="textarea" id="messagebox" rows="10" cols="50"></textarea>
    </form>
 </div>
 <footer>
     <p>Posted by: Poster</p>
     <p>example@example.com</p>
 </footer>
+<script src="js/main.js"></script>
 </body>
 </html>
