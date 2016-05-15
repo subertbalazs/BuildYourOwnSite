@@ -15,9 +15,13 @@ footer{
     right: 0;
 }
 
+#contactbody{
+    text-align: center;
+}
+
 body{
     font-size: 110%;
     font-family: Arial, SimSun, serif;
-    text-align: center;
+
     margin: auto;
     }
