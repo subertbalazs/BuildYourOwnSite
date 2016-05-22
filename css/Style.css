@@ -15,8 +15,11 @@ img {
 }
 
 .textContent{
-    float: left;
+    float: right;
     color: aliceblue;
+    top: 100%;
+    padding-right: 35%;
+    padding-bottom: 10%;
 }
 
 footer{
@@ -31,6 +34,7 @@ footer{
 #contactbody{
     text-align: center;
 }
+
 p, h1,h3{
     color: aliceblue;
     font-style: italic;
