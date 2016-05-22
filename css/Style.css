@@ -4,6 +4,7 @@
 
 #profile{
     float: left;
+    color: aliceblue;
 }
 
 footer{
@@ -18,10 +19,12 @@ footer{
 #contactbody{
     text-align: center;
 }
+p, h1{
+    color: aliceblue;
+}
 
 body{
     font-size: 110%;
     font-family: Arial, SimSun, serif;
-
     margin: auto;
     }
