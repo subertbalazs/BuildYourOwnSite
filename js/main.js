@@ -54,7 +54,7 @@ function validateMessage()
     return true;
 }
 
-function validateForm()
+function validateContactData()
 {
     var validation = true;
     validation &= validateNameLength();
@@ -66,9 +66,12 @@ function validateForm()
     {
         document.getElementById("myBtn").disabled = false;
     }
-    
-  
     return validation;
 }
+
+function sendEmail() {
+        
+}
+
 
 
