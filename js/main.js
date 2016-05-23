@@ -69,9 +69,6 @@ function validateContactData()
     return validation;
 }
 
-function sendEmail() {
-        
-}
 
 
 
